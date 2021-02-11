@@ -1,0 +1,8 @@
+prefix=/home/abcaps35/catkin_ws/install
+
+Name: baxter_playfile_nodes
+Description: Description of baxter_playfile_nodes
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs baxter_trajectory_streamer actionlib_msgs actionlib message_runtime
